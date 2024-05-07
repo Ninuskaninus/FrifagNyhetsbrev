@@ -1,13 +1,115 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+#root {
+  width: 100%;
+}
+
+:root {
+  --mainFont: 'Lato', sans-serif;
+  --secondaryFont: 'Merriweather', serif;
+  --orange: #FF6900;
+  --black: #222323;
+  --beige: #F7BCAC;
+  --yellow: #FCE300;
+  --green: #30B700;
+  --lightGreen: #00C65E;
+  --blue: #0047BB;
+  --lightBlue: #00B5E2;
+  --red: #E4002B;
+  --purple: #BB29BB;
+  --gray: #f5f8fd;
+  --white: #fff;
+  --darkGray: #a0a0a0;
+  --boxShadow: rgb(0 0 0 / 10%) 0px 4px 4px;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+    width: 100%;
+    background-color: var(--gray);
+    font-family: var(--mainFont);
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 1040px;
+    padding: 80px 20px;
+    align-items: center;
+  }
+  
+  h1 {
+    font-family: var(--secondaryFont);
+    font-size: 2.5rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  h2 {
+    font-family: var(--secondaryFont);
+    font-size: 2rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  h3 {
+    font-family: var(--secondaryFont);
+    font-size: 1.5rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  h4 {
+    font-family: var(--secondaryFont);
+    font-size: 1.25rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  h5 {
+    font-family: var(--secondaryFont);
+    font-size: 1rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  h6 {
+    font-family: var(--secondaryFont);
+    font-size: 0.875rem;
+    color: var(--black);
+    margin: 0;
+  }
+  
+  p {
+    font-family: var(--mainFont);
+    font-size: 1rem;
+    color: var(--black);
+    margin: 0;
+}
+
+a {
+  font-family: var(--mainFont);
+  font-size: 1rem;
+  color: var(--black);
+  text-decoration: none;
+}
+
