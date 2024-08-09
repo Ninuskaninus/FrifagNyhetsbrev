@@ -46,7 +46,7 @@ const Descriptions = {
   MagForFag: () => {
     return (
       <>
-      <h5>Magasin for fagorganiserte</h5>
+      <h5>Magasinet for fagorganiserte</h5>
       <p>Nyheter og reportasjer om ansatte i store bransjer i privat sektor, blant annet industri, bygg, transport og hotell og restaurant</p>
       </>
     )
@@ -166,7 +166,7 @@ const Descriptions = {
     return (
       <>
       <h5>Magasinet Styrke</h5>
-      <p>Nyheter og reportaser om ansatte i olje-, gass- og landindustri, ledere, ingeniører og teknikere</p>
+      <p>Nyheter og reportasjer om ansatte i olje-, gass- og landindustri, ledere, ingeniører og teknikere</p>
       </>
     )
   },
