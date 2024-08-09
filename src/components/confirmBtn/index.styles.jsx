@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const ConfirmContainer = styled.div`
-margin: 3rem 0;
+margin: 1rem 0;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-padding: 2rem;
+padding: 1rem;
 
 a{
   text-decoration: underline;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   &:hover{
     font-weight: bold;
   }
@@ -41,8 +41,8 @@ button{
 p{
   text-align: center;
   font-size: 16px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: var(--darkGray);
   line-height: 1.5;
   

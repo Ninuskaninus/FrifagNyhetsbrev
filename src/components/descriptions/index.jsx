@@ -3,7 +3,7 @@ import React from "react";
 const Descriptions = {
   Top: () => {
     return (
-      <p>Velg de nyhetsbrevene du ønsker å motta fra oss, og derretter skriv inn mailen din nederst på siden.</p>
+      <p>Velg de nyhetsbrevene du ønsker å motta fra oss, skriv inn e-postadressa din nederst på siden.</p>
     )
   },
 
