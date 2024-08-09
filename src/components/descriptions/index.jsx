@@ -175,7 +175,7 @@ const Descriptions = {
     return (
       <>
       <h5>Maritim logg</h5>
-      <p>Nyheter og reportasjer om sjøfolk, havfiskere, maritime ledere og ansatte i maritime yrker.</p>
+      <p>Nyheter og reportasjer om sjøfolk, havfiskere og ansatte i maritime yrker.</p>
       </>
     )
   },
