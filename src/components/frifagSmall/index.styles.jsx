@@ -7,23 +7,31 @@ background-color: var(--white);
 box-shadow: var(--boxShadow);
 margin-bottom: 2rem;
 
-img{
-  width: 50%;
-  max-width: 350px;
-  height: 250px;
-  object-fit: cover;
-}
 
 @media screen and (max-width: 465px){
   flex-direction: column;
   width: 100%;
-  img{
+  div{
     width: 100%;
     height: 200px;
     max-width: 100%;
   }
 }
 `;
+
+export const ImageContainer = styled.div`
+  width: 50%;
+  max-width: 350px;
+  height: 250px;
+  object-fit: cover;
+
+    img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`;
+
 
 export const CardInfo = styled.div`
 padding: 3rem;

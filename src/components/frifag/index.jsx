@@ -7,7 +7,7 @@ import Checkbox from "../checkbox";
 export default function Frifag() {
   return (
     <FrifagItem>
-      <h3>Frifagbevegelse</h3>
+      <h3>FriFagbevegelse</h3>
       <FrifagCard>
         <Images.Frifag />
         <FrifagInfo>

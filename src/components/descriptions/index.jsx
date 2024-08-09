@@ -34,29 +34,30 @@ const Descriptions = {
     )
   },
 
-  MagForFag: () => {
+  Tillitsvalgte: () => {
     return (
       <>
-      <h5>Magasin for fagorganiserte</h5>
-      <p>Siste nytt om ansatte i store bransjer i privat sektor, som industri, bygg, transport og hotell- og restaurant</p>
+        <h5>Nyhetsbrev for tillitsvalgte</h5>
+        <p>Reportasjer, nyheter og artikler som er nyttige for deg som er tillitsvalgt i et LO-forbund </p>
       </>
     )
   },
 
-  IndustriEnergi: () => {
+  MagForFag: () => {
     return (
       <>
-      <h5>Industri Energi</h5>
-      <p>Nyheter og reportasjer om ansatte i olje, gass og landindustri</p>
+      <h5>Magasin for fagorganiserte</h5>
+      <p>Nyheter og reportasjer om ansatte i store bransjer i privat sektor, blant annet industri, bygg, transport og hotell og restaurant</p>
       </>
     )
   },
+
 
   HKNytt: () => {
     return (
       <>
       <h5>HK-Nytt</h5>
-      <p>Siste nytt om de som jobber i handel, kontor, service og finans</p>
+      <p>Nyheter og reportasjer om ansatte i handel, kontor, luftfart og reiseliv, finans, forlag, media, samferdsel og organisasjoner</p>
       </>
     )
   },
@@ -65,7 +66,7 @@ const Descriptions = {
     return (
       <>
       <h5>Arbeidsmanden</h5>
-      <p>Nyheter og reportasjer ansatte innen bransjer som maskin, anlegg, vakt og renhold</p>
+      <p>Nyheter og reportasjer om arbeidsfolk i bransjer som maskin, anlegg, vakt, renhold og bergverk</p>
       </>
     )
   },
@@ -74,7 +75,7 @@ const Descriptions = {
     return (
       <>
       <h5>Nettverk</h5>
-      <p>Nyheter og reportasjer om de som jobber med elektro, energi, telekom og IT</p>
+      <p>Nyheter og reportasjer om ansatte i elektro, energi, telekom og IT</p>
       </>
     )
   },
@@ -82,8 +83,8 @@ const Descriptions = {
   NTL: () => {
     return (
       <>
-      <h5>NTL-Magasinet</h5>
-      <p>Hva rører seg blant ansatte i staten?</p>
+      <h5>NTL-magasinet</h5>
+      <p>Nyheter og reportasjer om ansatte i staten og virksomheter med statlig tilknytning</p>
       </>
     )
   },
@@ -91,8 +92,8 @@ const Descriptions = {
   NNN: () => {
     return (
       <>
-      <h5>NNN-Arbeideren</h5>
-      <p>Siste nytt om de ansatte i mat- og drikkeindustrien</p>
+      <h5>NNN-arbeideren</h5>
+      <p>Nyheter og reportasjer om ansatte i mat- og drikkevareindustrien</p>
       </>
     )
   },
@@ -101,7 +102,7 @@ const Descriptions = {
     return (
       <>
       <h5>Fontene</h5>
-      <p>Hva er de viktigste sakene for sosialarbeidere for tida?</p>
+      <p>Nyheter og reportasjer om helse- og sosialarbeidere</p>
       </>
     )
   },
@@ -109,8 +110,8 @@ const Descriptions = {
   NJF: () => {
     return (
       <>
-      <h5>NJF-Magasinet</h5>
-      <p>Nyheter og reportasjer om det ansatte i jernbanen er opptatt av</p>
+      <h5>NJF-magasinet</h5>
+      <p>Nyheter og reportasjer om ansatte i jernbane og busstransport</p>
       </>
     )
   },
@@ -119,19 +120,11 @@ const Descriptions = {
     return (
       <>
       <h5>Posthornet</h5>
-      <p>Siste nytt om de som jobber i Posten</p>
+      <p>Nyheter og reportasjer om ansatte i Posten, Bring og DNB</p>
       </>
     )
   },
 
-  LedelseOgTeknikk: () => {
-    return (
-      <>
-      <h5>Ledelse og Teknikk</h5>
-      <p>Nyheter og reportasjer om ledere, ingeniører og teknikere</p>
-      </>
-    )
-  },
 
   Iskolen: () => {
     return (
@@ -145,8 +138,8 @@ const Descriptions = {
   NFF: () => {
     return (
       <>
-      <h5>NFF-Magasinet</h5>
-      <p>Siste nytt om de som jobber med fengsel og friomsorg</p>
+      <h5>NFF-magasinet</h5>
+      <p>Nyheter og reportasjer om ansatte i fengsel og friomsorg</p>
       </>
     )
   },
@@ -167,7 +160,27 @@ const Descriptions = {
       <p>Alt du trenger å vite om lønna di</p>
       </>
     )
-  }
+  },
+
+  MagasinetStyrke: () => {
+    return (
+      <>
+      <h5>Magasinet Styrke</h5>
+      <p>Nyheter og reportaser om ansatte i olje-, gass- og landindustri, ledere, ingeniører og teknikere</p>
+      </>
+    )
+  },
+
+  MaritimLogg: () => {
+    return (
+      <>
+      <h5>Maritim logg</h5>
+      <p>Nyheter og reportasjer om sjøfolk, havfiskere, maritime ledere og ansatte i maritime yrker.</p>
+      </>
+    )
+  },
+
+
 }
 
 export default Descriptions;

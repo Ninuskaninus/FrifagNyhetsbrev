@@ -1,4 +1,3 @@
-import React, { Children } from "react";
 import Layout from "./layout";
 import Main from "./pages/main";
 

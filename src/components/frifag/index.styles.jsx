@@ -5,7 +5,6 @@ margin-top: 4rem;
 margin-bottom: 2rem;
 h3 {
   font-size: 1.5rem;
-  font-weight: 500;
   margin-bottom: 1rem;
 }
 `;
@@ -18,6 +17,7 @@ img {
   width: 100%;
   height: 280px;
   object-fit: cover;
+  background-color: var(--orange);
 }
 `;
 export const FrifagInfo = styled.div`
@@ -33,4 +33,9 @@ flex-direction: row;
 width: 100%;
 justify-content: space-between;
 margin-top: 2rem;
+
+@media (max-width: 410px) {
+  flex-direction: column;
+  gap: 1rem;
+}
 `;

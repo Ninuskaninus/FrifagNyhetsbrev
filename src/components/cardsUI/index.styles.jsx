@@ -12,14 +12,24 @@ justify-content: flex-end;
 align-items: space-between;
 
 img{
-    width: 100%;
-    height: 280px;
+
     object-fit: cover;
 }
 
 @media screen and (max-width: 768px){
     width: 100%;
 }
+`;
+
+export const ImageContainer = styled.div`
+    width: 100%;
+    height: 280px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 `;
 
 export const CardInfo = styled.div`

@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckboxContainer, Card, CardInfo } from "./index.styles";
+import { ImageContainer, CheckboxContainer, Card, CardInfo } from "./index.styles";
 import Checkbox from "../checkbox";
 import cards from "../cardsInfo";
 import { useState, useEffect } from "react";
@@ -11,11 +11,22 @@ export default function Cards() {
     setNewsletter(cards);
   }, []);
 
+  const color = [
+    { backgroundColor : "var(--blue)" },
+    { backgroundColor : "var(--yellow)" },
+    { backgroundColor : "var(--teal)" },
+    { backgroundColor : "var(--green)" },
+    { backgroundColor : "var(--beige)" },
+    { backgroundColor : "var(--rose)" },
+    { backgroundColor : "var(--red)" },
+  ]
+
   return (
     <>
-      {newsletter.map((card) => (
+      {newsletter.map((card, index) => (
         <Card key={card.id}>
-          <card.image />
+          <ImageContainer style={color[index % color.length]}>            <card.image />
+          </ImageContainer>
           <CardInfo>
             <card.description />
             <CheckboxContainer>

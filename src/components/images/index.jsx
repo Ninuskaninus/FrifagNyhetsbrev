@@ -1,23 +1,22 @@
 import React from "react";
-import FriFagbevegelse from "../../assets/frifag.jpg";
-import Rorsla from "../../assets/røsla.jpg";
-import Utenriks from "../../assets/urix.jpg";
-import MagForFag from "../../assets/magforfag.jpg";
-import IndustriEnergi from "../../assets/industrienergi.jpg";
-import HKNytt from "../../assets/hk-nytt.jpg";
-import Arbeidsmanden from "../../assets/arbeidsmanden.jpg"
-import Nettverk from "../../assets/nettverk.jpg";
-import NTL from "../../assets/ntl.jpg";
-import NNN from "../../assets/nnn.jpg";
-import Fontene from "../../assets/fontene.jpg";
-import NJF from "../../assets/njf.jpg";
-import Posthornet from "../../assets/posthornet.jpg";
-import LedelseOgTeknikk from "../../assets/ledelseogteknikk.jpg";
-import Iskolen from "../../assets/iskolen.jpg";
-import NFF from "../../assets/nff.jpg";
-import LoAktuelt from "../../assets/loaktuelt.jpg";
-import Lonnsoppgjør from "../../assets/lønnsoppgjør.jpg";
+import FriFagbevegelse from "../../assets/frifagbevegelse.png";
+import Rorsla from "../../assets/rorsla.png";
+import Utenriks from "../../assets/urix.png";
+import MagForFag from "../../assets/magforfag.png";
+import HKNytt from "../../assets/hknytt.png";
+import Arbeidsmanden from "../../assets/arbeidsmanden.png";
+import Nettverk from "../../assets/nettverk.png";
+import NTL from "../../assets/ntl.png";
+import NNN from "../../assets/nnn.png";
+import Fontene from "../../assets/fontene.png";
+import NJF from "../../assets/njf.png";
+import Posthornet from "../../assets/posthornet.png";
+import Iskolen from "../../assets/iskolen.png";
+import NFF from "../../assets/nff.png";
+import Lonnsoppgjør from "../../assets/lonnsoppgjor.png";
 import Logo from "../../assets/frifag-white.png";
+import Magasinetstyrke from "../../assets/styrke.png";
+import Tillitsvalgt from "../../assets/tillitsvalgt.png";
 
 const Images = {
   Frifag: () => {
@@ -41,11 +40,6 @@ const Images = {
   MagForFag: () => {
     return (
       <img src={MagForFag} alt="MagForFag" />
-    );
-  },
-  IndustriEnergi: () => {
-    return (
-      <img src={IndustriEnergi} alt="IndustriEnergi" />
     );
   },
   HKNytt: () => {
@@ -88,11 +82,7 @@ const Images = {
       <img src={Posthornet} alt="Posthornet" />
     );
   },
-  LedelseOgTeknikk: () => {
-    return (
-      <img src={LedelseOgTeknikk} alt="LedelseOgTeknikk" />
-    );
-  },
+
   Iskolen: () => {
     return (
       <img src={Iskolen} alt="Iskolen" />
@@ -101,11 +91,6 @@ const Images = {
   NFF: () => {
     return (
       <img src={NFF} alt="NFF" />
-    );
-  },
-  LoAktuelt: () => {
-    return (
-      <img src={LoAktuelt} alt="LoAktuelt" />
     );
   },
   Lonnsoppgjør: () => {
@@ -117,6 +102,24 @@ const Images = {
   Logo: () => {
     return (
       <img src={Logo} alt="Frifagbevegelse" />
+    );
+  },
+
+  Magasinetstyrke: () => {
+    return (
+      <img src={Magasinetstyrke} alt="Magasinetstyrke" />
+    );
+  },
+
+  Tillitsvalgt: () => {
+    return (
+      <img src={Tillitsvalgt} alt="Tillitsvalgt" />
+    );
+  },
+
+  MaritimLogg: () => {
+    return (
+      <img src={Tillitsvalgt} alt="MaritimLogg" />
     );
   }
 }
