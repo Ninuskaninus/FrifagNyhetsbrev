@@ -6,7 +6,7 @@ import Descriptions from "../descriptions";
 export default function Top() {
   return (
     <TopItem>
-      <h1>Aboner på våre nyhetsbrev!</h1>
+      <h1>Abonner på våre nyhetsbrev!</h1>
       <TopInfo>
         <Descriptions.Top />
       </TopInfo>

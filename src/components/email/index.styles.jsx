@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const EmailContainer = styled.div`
 box-shadow: var(--boxShadow);
-    margin: 50px 0;
     padding: 4rem;
     background-color: var(--white);
     
