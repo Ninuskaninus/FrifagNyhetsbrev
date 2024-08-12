@@ -7,6 +7,7 @@ import Fagredaksjonene from "../../components/fagredaksjonene";
 import Email from "../../components/email";
 import Confirm from "../../components/confirmBtn";
 import ConfirmMessage from "../../components/confirmMessage";
+import CheckedList from "../../components/checkedList";
 
 export default function Main() {
   return (
@@ -15,7 +16,8 @@ export default function Main() {
       <Frifag />
       <Top2 />
       <Fagredaksjonene />
-      <ConfirmMessage/>
+      <ConfirmMessage />
+      <CheckedList />
       <Email />
       <Confirm />
     </Form>
