@@ -24,6 +24,5 @@ list-style-type: none;
 li{
 display: flex;
 justify-content: space-between;
-
 }
 `;
