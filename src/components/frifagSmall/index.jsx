@@ -32,6 +32,15 @@ export default function Top2() {
             <Checkbox id="39517" text="Hver uke" />
         </CardInfo>
       </Card>
+            <Card>
+        <ImageContainer style={colors[3]}>
+          <Images.Tillitsvalgt />
+        </ImageContainer>
+        <CardInfo>
+          <Descriptions.Tillitsvalgte />
+            <Checkbox id="50709" text="Hver uke" />
+        </CardInfo>
+      </Card>
       <Card>
         <ImageContainer style={colors[2]}>
           <Images.Lonnsoppgjør />
@@ -41,15 +50,7 @@ export default function Top2() {
             <Checkbox id="50708" text="" />
         </CardInfo>
       </Card>
-      <Card>
-        <ImageContainer style={colors[3]}>
-          <Images.Tillitsvalgt />
-        </ImageContainer>
-        <CardInfo>
-          <Descriptions.Tillitsvalgte />
-            <Checkbox id="50709" text="Hver uke" />
-        </CardInfo>
-      </Card>
+
     </>
   )
 }
