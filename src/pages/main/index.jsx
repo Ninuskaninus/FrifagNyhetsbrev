@@ -7,7 +7,7 @@ import Fagredaksjonene from "../../components/fagredaksjonene";
 import Email from "../../components/email";
 import Confirm from "../../components/confirmBtn";
 import ConfirmMessage from "../../components/confirmMessage";
-;
+
 
 export default function Main() {
   return (
@@ -17,7 +17,6 @@ export default function Main() {
       <Top2 />
       <Fagredaksjonene />
       <ConfirmMessage />
-     
       <Email />
       <Confirm />
     </Form>
