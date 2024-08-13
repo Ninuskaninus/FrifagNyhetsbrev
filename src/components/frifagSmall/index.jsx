@@ -7,7 +7,8 @@ import { Card, CardInfo, ImageContainer } from "./index.styles";
 const colors = [
   { backgroundColor: 'var(--rorslaRed)' },
   { backgroundColor: 'var(--beige)' },
-  { backgroundColor: 'var(--yellow)' }
+  { backgroundColor: 'var(--green)' },
+  { backgroundColor: 'var(--red)' },
 ];
 
 export default function Top2() {
@@ -37,7 +38,16 @@ export default function Top2() {
         </ImageContainer>
         <CardInfo>
           <Descriptions.AltOmLønnsoppgjøret />
-            <Checkbox id="50708" text="Under lønnsoppgjøret" />
+            <Checkbox id="50708" text="" />
+        </CardInfo>
+      </Card>
+      <Card>
+        <ImageContainer style={colors[3]}>
+          <Images.Tillitsvalgt />
+        </ImageContainer>
+        <CardInfo>
+          <Descriptions.Tillitsvalgte />
+            <Checkbox id="50709" text="Hver uke" />
         </CardInfo>
       </Card>
     </>
