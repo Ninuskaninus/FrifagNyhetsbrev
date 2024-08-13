@@ -3,8 +3,10 @@ import {Container} from "./index.styles";
 
 export default function StickyMessage() {
   const scrolldown = () => {
-    console.log("scrolling down")
-
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth"
+    });
   }
 
   return (
