@@ -4,6 +4,9 @@ export const EmailContainer = styled.div`
 box-shadow: var(--boxShadow);
     padding: 4rem;
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media (max-width: 768px){
     padding: 2rem;
@@ -44,6 +47,7 @@ box-shadow: var(--boxShadow);
 `;
 
 export const EmailInput = styled.div`
+width: 100%;
 input{
   width: 100%;
   padding: 0.5rem;
