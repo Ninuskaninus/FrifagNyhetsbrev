@@ -8,7 +8,6 @@ export default function CheckedList() {
       <ul>
         <li><p>NFF-magasinet - Hver uke</p><button type="button">Angre</button></li>
         <li><p>NFF-magasinet - Hver uke</p><button type="button">Angre</button></li>
-        <li><p>NFF-magasinet - Hver uke</p><button type="button">Angre</button></li>
       </ul>
     </Container>
   );
