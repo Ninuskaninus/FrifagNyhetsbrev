@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/nav";
+import StickyMessage from "../components/stickyMessage";
 
 export default function Layout({ children }) {
   return (
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
     <Nav />
       <main>
         {children}
+        <StickyMessage />
       </main>
       </>
   );

@@ -8,6 +8,7 @@ import Email from "../../components/email";
 import Confirm from "../../components/confirmBtn";
 import ConfirmMessage from "../../components/confirmMessage";
 import CheckedList from "../../components/checkedList";
+;
 
 export default function Main() {
   return (
@@ -17,7 +18,8 @@ export default function Main() {
       <Top2 />
       <Fagredaksjonene />
       <ConfirmMessage />
-      <CheckedList />
+      {/*       <CheckedList /> */}
+     
       <Email />
       <Confirm />
     </Form>

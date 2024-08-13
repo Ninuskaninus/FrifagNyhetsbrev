@@ -4,6 +4,10 @@ export const EmailContainer = styled.div`
 box-shadow: var(--boxShadow);
     padding: 4rem;
     background-color: var(--white);
+
+    @media (max-width: 768px){
+    padding: 2rem;
+    }
     
 
     h3{
@@ -17,6 +21,26 @@ box-shadow: var(--boxShadow);
     span{
       color: var(--orange);
     }
+      button{
+      background-color: var(--orange);
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 25px;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    &:hover{
+      font-weight: bold;
+    }
+}
 `;
 
 export const EmailInput = styled.div`

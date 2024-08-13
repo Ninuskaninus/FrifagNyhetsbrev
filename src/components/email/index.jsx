@@ -4,7 +4,7 @@ import {EmailContainer, EmailInput} from "./index.styles";
 export default function Email() {
   return (
     <EmailContainer>
-      <h3>Din e-postadresse <span>*</span></h3>
+      <h3>Din e-postadresse<span>*</span></h3>
       <EmailInput>
         <label htmlFor="epost"></label>
         <input
@@ -12,6 +12,7 @@ export default function Email() {
           name="epost"
           id="epost" />
       </EmailInput>
+      <button type="button" id="confirm">Meld meg på</button>
     </EmailContainer>
   );
 }
