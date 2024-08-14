@@ -74,8 +74,6 @@ const cards = [
       },
      
 
-   
-
      {
       name: "Norsk Journalistlag",
       image: Images.NJF,
