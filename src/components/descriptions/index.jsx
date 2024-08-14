@@ -79,7 +79,7 @@ const Descriptions = {
     return (
       <>
       <h5>Nettverk</h5>
-      <p>Nyheter og reportasjer om ansatte i elektro, energi, telekom og IT</p>
+      <p>Nyheter og reportasjer om folk som jobber i elektro, energi, telekom og IT</p>
       </>
     )
   },
@@ -97,7 +97,7 @@ const Descriptions = {
     return (
       <>
       <h5>NNN-arbeideren</h5>
-      <p>Nyheter og reportasjer om ansatte i mat- og drikkevareindustrien</p>
+      <p>Nyheter og reportasjer om ansatte i bransjer som mat- og drikkevareindustrien</p>
       </>
     )
   },

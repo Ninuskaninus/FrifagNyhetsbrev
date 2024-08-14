@@ -10,13 +10,14 @@ const cards = [
       id: 51946,
       release: "Hver uke"
   }, */
-        {
-    name: "Magasinet styrke",
-    image: Images.Magasinetstyrke,
-    description: Descriptions.MagasinetStyrke,
-    id: 123,
-    release: "Hver uke"
-  },
+       {
+      name: "Magasinet for fagorganiserte",
+      image: Images.MagForFag,
+      description: Descriptions.MagForFag,
+      id: 39477,
+      release: "Hver uke"
+    },
+
 
 
     {
@@ -25,14 +26,16 @@ const cards = [
       description: Descriptions.HKNytt,
       id: 39479,
       release: "Hver uke"
-    },
-      {
-      name: "Magasinet for fagorganiserte",
-      image: Images.MagForFag,
-      description: Descriptions.MagForFag,
-      id: 39477,
-      release: "Hver uke"
-    },
+  },
+    
+          {
+    name: "Magasinet styrke",
+    image: Images.Magasinetstyrke,
+    description: Descriptions.MagasinetStyrke,
+    id: 123,
+    release: "Hver uke"
+  },
+ 
   
       {
       name: "NTL-Magasinet",
@@ -47,6 +50,13 @@ const cards = [
       description: Descriptions.Arbeidsmanden,
       id: 39480,
       release: "Annenhver uke"
+  },
+        {
+      name: "NNN-arbeideren",
+      image: Images.NNN,
+      description: Descriptions.NNN,
+      id: 39484,
+      release: "Hver uke"
       },
         {
       name: "Fontene",
@@ -63,13 +73,7 @@ const cards = [
       release: "Hver uke"
       },
 
-     {
-      name: "NNN-arbeideren",
-      image: Images.NNN,
-      description: Descriptions.NNN,
-      id: 39484,
-      release: "Hver uke"
-      },
+   
 
      {
       name: "Norsk Journalistlag",
