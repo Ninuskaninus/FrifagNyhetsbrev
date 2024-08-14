@@ -74,15 +74,24 @@ const Descriptions = {
       </>
     )
   },
-
-  Nettverk: () => {
+    Nettverk: () => {
     return (
       <>
       <h5>Nettverk</h5>
-      <p>Nyheter og reportasjer om folk som jobber i elektro, energi, telekom og IT</p>
+      <p>Nyheter og reportasjer om folk som jobber i bransjer som elektro, energi, telekom og IT</p>
       </>
     )
   },
+    NNN: () => {
+    return (
+      <>
+      <h5>NNN-arbeideren</h5>
+      <p>Nyheter og reportasjer om ansatte i mat- og drikkevareindustrien</p>
+      </>
+    )
+  },
+
+
 
   NTL: () => {
     return (
@@ -93,14 +102,7 @@ const Descriptions = {
     )
   },
 
-  NNN: () => {
-    return (
-      <>
-      <h5>NNN-arbeideren</h5>
-      <p>Nyheter og reportasjer om ansatte i bransjer som mat- og drikkevareindustrien</p>
-      </>
-    )
-  },
+
 
   Fontene: () => {
     return (

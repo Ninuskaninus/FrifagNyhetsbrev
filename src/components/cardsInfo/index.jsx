@@ -51,6 +51,13 @@ const cards = [
       id: 39480,
       release: "Annenhver uke"
   },
+   {
+      name: "Nettverk",
+      image: Images.Nettverk,
+      description: Descriptions.Nettverk,
+      id: 39481,
+      release: "Hver uke"
+      },
         {
       name: "NNN-arbeideren",
       image: Images.NNN,
@@ -65,13 +72,7 @@ const cards = [
       id: 39483,
       release: "Hver uke"
       },
-      {
-      name: "Nettverk",
-      image: Images.Nettverk,
-      description: Descriptions.Nettverk,
-      id: 39481,
-      release: "Hver uke"
-      },
+     
 
    
 
