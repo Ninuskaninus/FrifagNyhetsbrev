@@ -36,7 +36,7 @@ export const ImageContainer = styled.div`
             transform: scale(1);
         }
 
-        @media screen and (max-width: 425px){
+        @media screen and (max-width: 650px){
             transform: scale(1.5);
         }
     }
