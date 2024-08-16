@@ -15,9 +15,9 @@ box-shadow: var(--boxShadow);
 
 img {
   width: 100%;
-  height: 280px;
+  height: 400px;
   object-fit: cover;
-  background-color: var(--orange);
+  background-color: var(--beige);
 }
 `;
 export const FrifagInfo = styled.div`

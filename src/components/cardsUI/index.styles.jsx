@@ -24,11 +24,21 @@ img{
 export const ImageContainer = styled.div`
     width: 100%;
     height: 280px;
+    overflow: hidden;
 
     img{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        transform: scale(1.5);
+
+        @media screen and (max-width: 768px){
+            transform: scale(1);
+        }
+
+        @media screen and (max-width: 425px){
+            transform: scale(1.5);
+        }
     }
 `;
 

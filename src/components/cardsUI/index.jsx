@@ -25,7 +25,8 @@ export default function Cards() {
     <>
       {newsletter.map((card, index) => (
         <Card key={card.id}>
-          <ImageContainer style={color[index % color.length]}>            <card.image />
+          <ImageContainer style={color[index % color.length]}>
+            <card.image />
           </ImageContainer>
           <CardInfo>
             <card.description />
