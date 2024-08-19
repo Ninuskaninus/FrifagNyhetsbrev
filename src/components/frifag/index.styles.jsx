@@ -13,6 +13,7 @@ export const FrifagCard = styled.div`
 background-color: var(--white);
 box-shadow: var(--boxShadow);
 
+
 img {
   width: 100%;
   height: 400px;

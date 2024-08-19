@@ -36,14 +36,14 @@ export const ImageContainer = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transform: scale(1.5);
+        transform: scale(1.2);
 
         @media screen and (max-width: 660px){
             transform: scale(1);
         }
 
         @media screen and (max-width: 465px){
-            transform: scale(1.5);
+            transform: scale(1.3);
     }
 `;
 
