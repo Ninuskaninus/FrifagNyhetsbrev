@@ -37,7 +37,7 @@ export const ImageContainer = styled.div`
         }
 
         @media screen and (max-width: 650px){
-            transform: scale(1.5);
+            transform: scale(1.3);
         }
     }
 `;

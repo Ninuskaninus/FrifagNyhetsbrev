@@ -15,6 +15,8 @@ margin-bottom: 2rem;
     width: 100%;
     height: 200px;
     max-width: 100%;
+
+    img{}
   }
 }
 `;
@@ -26,6 +28,10 @@ export const ImageContainer = styled.div`
   object-fit: cover;
   overflow: hidden;
 
+  @media screen and (max-width: 465px){
+  height: 400px !important;
+  }
+
     img{
         width: 100%;
         height: 100%;
@@ -35,6 +41,9 @@ export const ImageContainer = styled.div`
         @media screen and (max-width: 660px){
             transform: scale(1);
         }
+
+        @media screen and (max-width: 465px){
+            transform: scale(1.5);
     }
 `;
 
