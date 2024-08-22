@@ -49,7 +49,7 @@ const cards = [
       image: Images.Arbeidsmanden,
       description: Descriptions.Arbeidsmanden,
       id: 39480,
-      release: "Annenhver uke"
+      release: "Hver uke"
   },
    {
       name: "Nettverk",
