@@ -1,10 +1,7 @@
 import React from "react";
 import {ConfirmContainer} from "./index.styles";
 
-export default function Confirm() {
-
-
-
+export default function PricacyStatement() {
 
   return (
     <ConfirmContainer>

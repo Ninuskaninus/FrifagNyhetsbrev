@@ -5,6 +5,7 @@ import { Form } from "./index.styles";
 import FrifagSmall from "../../components/frifagSmall";
 import Fagredaksjonene from "../../components/fagredaksjonene";
 import Email from "../../components/email";
+import PricacyStatement from "../../components/privacyStatement";
 
 
 export default function Main() {
@@ -15,6 +16,7 @@ export default function Main() {
       <FrifagSmall />
       <Fagredaksjonene />
       <Email />
+      <PricacyStatement />
     </Form>
   );
 }
