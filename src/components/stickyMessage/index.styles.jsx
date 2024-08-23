@@ -10,6 +10,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 10px;
+cursor: pointer;
 
 h5{
 font-size: 16px;
