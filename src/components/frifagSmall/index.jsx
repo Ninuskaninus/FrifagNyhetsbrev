@@ -11,7 +11,7 @@ const colors = [
   { backgroundColor: 'var(--red)' },
 ];
 
-export default function Top2() {
+export default function FrifagSmall() {
   return (
     <>
       <Card>

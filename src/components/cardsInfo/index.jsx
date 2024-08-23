@@ -3,13 +3,6 @@ import Images from "../images";
 import Descriptions from "../descriptions";
 
 const cards = [
-/*     {
-      name: "LO Aktuelt",
-      image: Images.Tillitsvalgt,
-      description: Descriptions.Tillitsvalgte,
-      id: 51946,
-      release: "Hver uke"
-  }, */
        {
       name: "Magasinet for fagorganiserte",
       image: Images.MagForFag,
@@ -28,13 +21,13 @@ const cards = [
       release: "Hver uke"
   },
     
-          {
-    name: "Magasinet styrke",
-    image: Images.Magasinetstyrke,
-    description: Descriptions.MagasinetStyrke,
-    id: 123,
-    release: "Hver uke"
-  },
+      {
+        name: "Magasinet styrke",
+        image: Images.Magasinetstyrke,
+        description: Descriptions.MagasinetStyrke,
+        id: 24157,
+        release: "Hver uke"
+      },
  
   
       {
@@ -103,14 +96,6 @@ const cards = [
       id: 40119,
       release: "Hver uke"
   },
-/*   {
-    name: "Maritim logg",
-    image: Images.Tillitsvalgt,
-    description: Descriptions.MaritimLogg,
-    id: 123456,
-    release: "Hver uke"
-  } */
-  
 
 
 ]
